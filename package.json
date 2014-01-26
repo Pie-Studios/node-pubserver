@@ -1,0 +1,33 @@
+{
+  "name": "http-pubserver",
+  "preferGlobal": "true",
+  "version": "0.0.1",
+  "author": "Johan Jatko <johan@pie-studios.com>",
+  "description": "Markdown render server for publications",
+  "contributors": [
+    {
+      "name": "Johan Jatko",
+      "email": "johan@pie-studios.com"
+    }
+  ],
+  "bin": {
+    "http-pubserver": "node ./bin/pubserver.js",
+    "main": "./lib/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pie-Studios/node-pubserver.git"
+  },
+  "keywords": [
+    "markdown",
+    "http",
+    "server",
+    "documentation",
+    "publication"
+  ],
+  "dependencies": {
+    "marked": "~0.3.0",
+    "highlight.js": "~8.0.0",
+    "commander": "~2.1.0"
+  }
+}
