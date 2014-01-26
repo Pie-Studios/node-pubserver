@@ -1,7 +1,7 @@
 {
   "name": "http-pubserver",
   "preferGlobal": "true",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "author": "Johan Jatko <johan@pie-studios.com>",
   "description": "Markdown render server for publications. Supports both hosting and prerendering.",
   "contributors": [
@@ -24,11 +24,12 @@
     "server",
     "documentation",
     "publication",
-	"prerender"
+    "prerender"
   ],
   "dependencies": {
     "marked": "~0.3.0",
     "highlight.js": "~8.0.0",
-    "commander": "~2.1.0"
+    "commander": "~2.1.0",
+    "mkdirp": "~0.3.5"
   }
 }
